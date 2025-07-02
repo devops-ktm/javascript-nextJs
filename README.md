@@ -1,3 +1,28 @@
+Project : Prediction App (Next.js)
+
+This is a simple full-stack web app built using **Next.js (App Router)** that predicts a person’s age, gender, and nationality based on their name using public APIs.
+
+#Features
+
+Predicts **age**, **gender**, and **nationality** using:
+[Agify.io](https://agify.io) (age)
+[Genderize.io](https://genderize.io) (gender)
+ [Nationalize.io](https://nationalize.io) (nationality)
+ 
+Clean and responsive UI using **Tailwind CSS**
+Routing using **Next.js App Router**
+ Parallel data fetching with `Promise.all()`
+
+## 📦 Tech Stack
+*Frontend*: React + Tailwind CSS
+*Framework*: Next.js 13+ App Router
+ *APIs::
+  - `https://api.agify.io`
+  - `https://api.genderize.io`
+  - `https://api.nationalize.io`
+
+
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
@@ -34,3 +59,5 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+
