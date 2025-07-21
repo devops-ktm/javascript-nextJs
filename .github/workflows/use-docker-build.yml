@@ -10,4 +10,4 @@ jobs:
     uses: devops-ktm/centralized-docker-action/.github/workflows/docker-build.yml@main
     with:
       image_name: ghcr.io/devops-ktm/javascript-nextjs
-    image_tag: v1.0.0
+      image_tag: v1.0.0
